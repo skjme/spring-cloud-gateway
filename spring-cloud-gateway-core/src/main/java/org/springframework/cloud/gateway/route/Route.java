@@ -36,6 +36,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.toAsyncPredicate;
 
 /**
+ * Route 是 gateway 中最基本的组件之一，表示一个具体的路由信息载体。
  * @author Spencer Gibb
  */
 public class Route implements Ordered {
